@@ -1,5 +1,7 @@
 # simulink-unwrapper-block
 
+[![View UnWrapper on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/6354-unwrapper)
+
 Normally, the output of functions that return angles (e.g. atan2) is strictly constrained within the range 0 to 2*pi or within the range -pi to pi.
 
 Therefore, even if the inputs change continuously, the angle will exhibit 2*pi jumps across the limits, which is sometimes undesirable (e.g. when the angle drives a control system).
